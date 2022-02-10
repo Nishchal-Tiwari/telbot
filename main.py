@@ -5,7 +5,8 @@ api_key = "5170347007:AAHRLYqkz0qvOdS0NzwE5JDdgdF1mRr55RE"
 
 
 def check1(update, context):
-    update.message.reply_text("bhosidi wala")
+    update.message.reply_text(
+        "this is a automated message to you and i have created using heroku app")
 
 
 def handleplz(update, context):
