@@ -10,7 +10,7 @@ def check1(update, context):
 
 
 def handleplz(update, context):
-    update.message.reply_text("is it working ")
+    update.message.reply_text(f"is it working {update.message.text}")
 
 
 def error(update, context):
