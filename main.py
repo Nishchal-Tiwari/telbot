@@ -15,7 +15,7 @@ def check1(update, context):
 
 def handleplz(update, context):
     update.message.reply_text(
-        "hello messager i will be called everytime you message in thsi group  ")
+        "is it working   ")
 
 
 def error(update, context):
