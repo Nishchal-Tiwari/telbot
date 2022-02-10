@@ -1,1 +1,1 @@
-web python3 main1.py
+web python3 main.py
