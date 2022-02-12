@@ -10,7 +10,10 @@ def check1(update, context):
 
 
 def handleplz(update, context):
-    update.message.reply_text(f"is it working {update.message.text}")
+    if(update.message.text == "abhishek")
+    {
+        update.message.reply_text("is a vhutiya londa")
+    }
 
 
 def error(update, context):
