@@ -10,8 +10,8 @@ def check1(update, context):
 
 
 def handleplz(update, context):
-    if(update.message.text == "Nishchal"):
-        update.message.reply_text("is a good boy")
+    if "hi" in update.message.text:
+        update.message.reply_text("hello user u wished me hi ")
 
 
 def error(update, context):
